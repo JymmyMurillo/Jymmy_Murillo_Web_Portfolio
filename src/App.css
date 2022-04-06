@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+/*the classes that start with "own-..." are own classes, the others are adapted from "Bootstrap"*/
+
+:root {
+  --bgColor: #FEF4EA;
+  --first-font: 'Pacifico',
+    cursive;
+  --second-font: 'Overpass Mono',
+    monospace;
+  --navBarHeight: 64px;
+  --footerHeight: 39px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: #1D1D1D !important;
+}
+ button {
+   color: black !important;
+ }
+a {
+  text-decoration: none !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ----------------NavBar classes----------------*/
+.own-mbtn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 3rem;
+  height: 3rem;
+  z-index: 100;
+  background-color: black !important;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.own-navLogo {
+  width: 200px;
+  height: auto;
+}
+
+.own-dicNavLogo {
+  padding-top: 44px !important;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white !important;
+  font-weight: bold;
+  font-size: 22px;
+  border-top: 1px solid #757575;
+  border-bottom: 1px solid #757575;
+  text-decoration: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+
+}
+
+.nav-link:hover {
+  color: #00A8F3 !important;
+}
+
+
+.offcanvas {
+  position: fixed;
+  bottom: 0;
+  z-index: 1045;
   display: flex;
   flex-direction: column;
+  max-width: 13rem !important;
+  visibility: hidden;
+  background-color: #1D1D1D !important;
+  background-clip: padding-box;
+  outline: 0;
+  transition: transform .3s ease-in-out;
+}
+
+
+.own-iconLinkedinGithubNavBar {
+  color: #757575;
+}
+
+.own-iconLinkedinGithubNavBar:hover {
+  color: #00A8F3;
+}
+
+.own-main-menu {
+  width: 13rem;
+  background-color: #181818;
+  height: 100vh;
+  position: fixed;
+  right:  0 !important;
+  top: 0;
+  left: calc(100% - 13rem);
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 3;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0;
+  padding: 1rem 1rem !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav {
+  height: calc(100vh - 18.75rem) !important;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
