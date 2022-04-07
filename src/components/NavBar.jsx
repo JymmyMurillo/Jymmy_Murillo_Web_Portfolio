@@ -116,7 +116,12 @@ function NavBar() {
               </li>
             </ul>
             <div className="d-flex justify-content-arround">
-              <a href="x" className="mx-3 ">
+              <a
+                href="https://www.linkedin.com/in/murillojymmy/"
+                target="_blank"
+                className="mx-3 "
+                rel="noreferrer"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="40px"
@@ -131,7 +136,8 @@ function NavBar() {
                   />
                 </svg>
               </a>
-              <a href="x">
+              <a href="https://github.com/JymmyMurillo"
+              target="_blank" rel="noreferrer">
                 <svg
                   className="mx-3"
                   xmlns="http://www.w3.org/2000/svg"

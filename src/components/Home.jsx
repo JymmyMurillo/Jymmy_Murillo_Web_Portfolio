@@ -24,7 +24,11 @@ function Home() {
       </div>
 
       <div className="d-flex justify-content-evenly align-items-center">
-        <a href="x" className="mx-3 own-iconLinkedinGithubNavBar">
+        <a
+          href="https://www.linkedin.com/in/murillojymmy/"
+          target="_blank"
+          className="mx-3 own-iconLinkedinGithubNavBar" rel="noreferrer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -37,7 +41,12 @@ function Home() {
             />
           </svg>
         </a>
-        <a href="x" className="mx-3 own-iconLinkedinGithubNavBar">
+        <a
+          href="https://github.com/JymmyMurillo"
+          target="_blank"
+          className="mx-3 own-iconLinkedinGithubNavBar"
+          rel="noreferrer"
+        >
           <svg
             className="mx-3"
             xmlns="http://www.w3.org/2000/svg"
@@ -53,10 +62,10 @@ function Home() {
         </a>
       </div>
       <span className="own-scroll-down-left d-flex flex-row justify-content-between">
-        Scroll down {`->`}
+        Scroll Down {`->`}
       </span>
       <span className="own-scroll-down-right d-flex flex-row justify-content-between">
-        Scroll down {`->`}
+        Scroll Down {`->`}
       </span>
     </div>
   );

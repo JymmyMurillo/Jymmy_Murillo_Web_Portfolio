@@ -330,6 +330,18 @@ a {
   color: var(--text-color);
 }
 
+/* ---------------About Me classes----------------*/
+.own-divAbout {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  position: relative;
+}
+
+
+
+
+
 @media (min-width: 390px) and (max-width: 599px) {
   html {
     font-size: calc(16px * 1.3);
