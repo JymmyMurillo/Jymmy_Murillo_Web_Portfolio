@@ -2,13 +2,17 @@ function Home() {
   return (
     <div className="own-divHome d-flex flex-column justify-content-around">
       <span className="own-tags own-topTags"></span>
-      <div className="d-flex justify-content-center own-divLogoHome">
-        <img
-          className="own-logoHome"
-          src="./images/Logo Fondo Oscuro1.svg"
-          alt="Logo Jymmy Murillo"
-        />
+
+      <div className="d-flex justify-content-center">
+        <div className="own-divLogoHome">
+          <img
+            className="own-logoHome"
+            src="./images/Logo Fondo Oscuro1.svg"
+            alt="Logo Jymmy Murillo"
+          />
+        </div>
       </div>
+
       <div className="d-flex justify-content-center">
         <div className="own-divName d-flex flex-column justify-content-center align-items-start">
           <h1 className="own-h1Home">Hola, soy</h1>

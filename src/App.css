@@ -2,16 +2,18 @@
 
 :root {
   --widthLogo: 12.5rem;
-  --first-font: 'Pacifico',
-    cursive;
-  --second-font: 'Overpass Mono',
-    monospace;
-  --navBarHeight: 64px;
-  --footerHeight: 39px;
+  --first-font: 'tillana';
+  --second-font: 'verdana';
+  --tirdht-font: 'La Belle Aurore',
+  cursive;
+  --fourth-font: 'nunito sans';
+  --tags-color: #515151;
+  --tittle-color: #00A8F3;
+  --text-color: white;
 }
 
 html {
-  font-size: 30px;
+  font-size: 16px;
 }
 
 body {
@@ -25,6 +27,57 @@ button {
 a {
   text-decoration: none !important;
 }
+
+@keyframes down {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(10px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.own-scroll-down-left {
+  color: var(--text-color);
+  font-family: var(--first-font);
+  font-weight: 600;
+  font-size: 0.7rem;
+  transform: rotate(90deg);
+  width: fit-content;
+  height: auto;
+  animation-name: down;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  bottom: 10px;
+  left: 2%;
+  writing-mode: vertical-rl;
+}
+
+.own-scroll-down-right {
+  color: var(--text-color);
+  font-family: var(--first-font);
+  font-weight: 600;
+  font-size: 0.7rem;
+  transform: rotate(90deg);
+  width: fit-content;
+  height: auto;
+  animation-name: down;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  bottom: 10px;
+  right: 2%;
+  writing-mode: vertical-rl;
+}
+
 
 /* ----------------NavBar classes----------------*/
 
@@ -71,7 +124,7 @@ a {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: white !important;
+  color: var(--text-color) !important;
   font-weight: bold;
   font-size: 22px;
   border-top: 1px solid #757575;
@@ -82,7 +135,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #00A8F3 !important;
+  color: var(--tittle-color) !important;
 }
 
 
@@ -115,8 +168,8 @@ a {
 }
 
 .own-iconLinkedinGithubNavBar:hover {
-  color: #00A8F3;
-  
+  color: var(--tittle-color);
+
 }
 
 .own-main-menu {
@@ -147,7 +200,7 @@ a {
 }
 
 .navbar-nav {
-  height: calc(100vh - 18.75rem) !important;
+  height: calc(100vh - 300px) !important;
   display: flex;
   flex-direction: column;
   padding-left: 0;
@@ -164,13 +217,13 @@ a {
 }
 
 .own-tags {
-  color: #515152;
+  color: var(--tags-color);
   position: absolute;
   bottom: 0;
   left: 1%;
   font-style: italic;
   font-size: 1.8rem;
-  font-family: 'La Belle Aurore', cursive;
+  font-family: var(--tirdht-font);
 }
 
 .own-topTags {
@@ -180,8 +233,8 @@ a {
 
 .own-topTags::before {
   content: '<html>';
-  font-family: 'La Belle Aurore', cursive;
-  color: #515151;
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
   font-size: 1rem;
   position: absolute;
   margin-top: -1rem;
@@ -190,8 +243,8 @@ a {
 
 .own-topTags::after {
   content: '<body>';
-  font-family: 'La Belle Aurore', cursive;
-  color: #515151;
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
   font-size: 1rem;
   position: absolute;
   margin-top: 1rem;
@@ -199,27 +252,28 @@ a {
 }
 
 .own-divLogoHome {
-  width: 100%;
+  width: fit-content;
+  position: relative;
 }
 
 .own-divLogoHome::before {
   content: '<img>';
-  font-family: 'La Belle Aurore', cursive;
-  color: #515151;
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
   font-size: 1rem;
   position: absolute;
   margin-top: -1.5rem;
-  left: 20vw;
+  left: -5%;
 }
 
 .own-divLogoHome::after {
   content: '</img>';
-  font-family: 'La Belle Aurore', cursive;
-  color: #515151;
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
   font-size: 1rem;
   position: absolute;
   margin-top: 12rem;
-  left: 20vw;
+  left: -5%;
 }
 
 .own-logoHome {
@@ -233,9 +287,9 @@ a {
 }
 
 .own-h1Home {
-  font-family: 'nunito sans';
+  font-family: var(--fourth-font);
   font-size: 1.5625rem;
-  color: white;
+  color: var(--text-color);
   font-weight: 900;
   position: relative;
   width: fit-content;
@@ -243,87 +297,71 @@ a {
 
 .own-h1Home::before {
   content: '<h1>';
-  font-family: 'La Belle Aurore', cursive;
-  color: #515151;
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
   font-size: 1rem;
   font-weight: 500;
   position: absolute;
   margin-top: -1rem;
-  left: 5%;
+  left: -10%;
 }
 
 .own-h1Home::after {
   content: '</h1>';
-  font-family: 'La Belle Aurore', cursive;
-  color: #515151;
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
   font-size: 1rem;
   font-weight: 500;
   position: absolute;
   margin-top: 5rem;
-  left: 5%;
+  left: -10%;
 }
 
 .own-h1Name {
-  font-family: 'tillana';
+  font-family: var(--first-font);
   font-weight: 600;
   font-size: 1.5rem;
-  color: white;
+  color: var(--text-color);
 }
 
 .own-h1FS {
-  font-family: 'verdana';
+  font-family: var(--second-font);
   font-size: 0.625rem;
-  color: white;
+  color: var(--text-color);
 }
 
-@keyframes down {
-  0% {
-    transform: translatey(0px);
+@media (min-width: 390px) and (max-width: 599px) {
+  html {
+    font-size: calc(16px * 1.3);
   }
 
-  50% {
-    transform: translatey(10px);
+}
+
+@media (min-width: 600px) and (max-width: 749px) {
+  html {
+    font-size: calc(16px * 1.6);
   }
 
-  100% {
-    transform: translatey(0px);
+}
+
+@media (min-width: 750px) and (max-width: 991px) {
+  html {
+    font-size: calc(16px * 1.7);
+  }
+
+}
+
+
+@media (min-width: 992px) {
+  html {
+    font-size: calc(16px * 1.8);
+  }
+
+  /* ----------------Home classes----------------*/
+  .own-divHome {
+    width: calc(100vw - 208px);
+    height: 100vh;
+    position: relative;
+    padding-top: 5rem;
   }
 }
-
-.own-scroll-down-left {
-  color: white;
-  font-family: 'tillana';
-  font-weight: 600;
-  font-size: 0.7rem;
-  transform: rotate(90deg);
-  width: fit-content;
-  height: auto;
-  animation-name: down;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  position: absolute;
-  bottom: 10px;
-  left: 2%;
-  writing-mode: vertical-rl;
-}
-
-.own-scroll-down-right {
-  color: white;
-  font-family: 'tillana';
-  font-weight: 600;
-  font-size: 0.7rem;
-  transform: rotate(90deg);
-  width: fit-content;
-  height: auto;
-  animation-name: down;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  position: absolute;
-  bottom: 10px;
-  right: 2%;
-  writing-mode: vertical-rl;
-}
-
-
