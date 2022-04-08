@@ -338,6 +338,99 @@ a {
   position: relative;
 }
 
+.own-divContent {
+  padding: 0 10%;
+  height: 100vh;
+}
+
+.own-h2About {
+  color: var(--tittle-color);
+  font-family: var(--fourth-font);
+  font-weight: 700;
+  position: relative;
+}
+
+.own-h2About::before {
+  content: '<h2>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: -1rem;
+  left: 0%;
+}
+
+.own-h2About::after {
+  content: '</h2>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 2rem;
+  left: 0%;
+}
+
+.own-pAbout {
+  color: var(--text-color);
+  font-family: var(--fourth-font);
+  font-size: 1.125rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.own-pAbout::before {
+  content: '<p>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: -1.5rem;
+  left: 0%;
+}
+
+.own-pAbout::after {
+  content: '</p>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 2rem;
+  left: 0%;
+}
+
+.own-aAbout {
+  color: var(--tittle-color);
+  font-family: var(--fourth-font);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.own-aAbout::before {
+  content: '<a>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: -1rem;
+  left: 0%;
+}
+
+.own-aAbout::after {
+  content: '</a>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 1rem;
+  left: 0%;
+}
 
 
 
@@ -375,5 +468,13 @@ a {
     height: 100vh;
     position: relative;
     padding-top: 5rem;
+  }
+
+  /* ---------------About Me classes----------------*/
+  .own-divAbout {
+    width: calc(100vw - 208px);
+    height: 100vh;
+    max-height: 100vh;
+    position: relative;
   }
 }
