@@ -537,7 +537,84 @@ a {
   margin: 0.6rem;
 }
 
+/* ---------------Work classes----------------*/
+.own-divWork {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  position: relative;
+}
 
+.own-divContentWork {
+  padding: 0 10%;
+  height: 100vh;
+}
+
+.own-h2Work {
+  color: var(--tittle-color);
+  font-family: var(--fourth-font);
+  font-weight: 700;
+  position: relative;
+}
+
+.own-h2Work::before {
+  content: '<h2>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: -1rem;
+  left: 0%;
+}
+
+.own-h2Work::after {
+  content: '</h2>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 2rem;
+  left: 0%;
+}
+
+.own-divWorks {
+  position: relative;
+
+}
+
+.own-divWorks::before {
+  content: '<div>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: -1.5rem;
+  left: 0%;
+}
+
+.own-divWorks::after {
+  content: '</div>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  bottom: -1.5rem;
+  left: 0%;
+}
+
+.own-logosWorks {
+  height: 7.5rem;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 7.5rem !important;
+  overflow: hidden;
+}
 
 
 @media (min-width: 390px) and (max-width: 599px) {
@@ -580,4 +657,10 @@ a {
   .own-divSkills {
     width: calc(100vw - 208px);
   }
+
+  /* ---------------Work classes----------------*/
+  .own-divWork {
+    width: calc(100vw - 208px);
+  }
+
 }

@@ -127,7 +127,7 @@ function NavBar() {
                   width="40px"
                   height="40px"
                   fill="currentColor"
-                  class="bi bi-linkedin"
+                  className="bi bi-linkedin"
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -136,15 +136,18 @@ function NavBar() {
                   />
                 </svg>
               </a>
-              <a href="https://github.com/JymmyMurillo"
-              target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/JymmyMurillo"
+                target="_blank"
+                rel="noreferrer"
+                className="mx-3 "
+              >
                 <svg
-                  className="mx-3"
                   xmlns="http://www.w3.org/2000/svg"
                   width="40px"
                   height="40px"
                   fill="currentColor"
-                  class="bi bi-github"
+                  className="bi bi-github"
                   viewBox="0 0 16 16"
                 >
                   <path
