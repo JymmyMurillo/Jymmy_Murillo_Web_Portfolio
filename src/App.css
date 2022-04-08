@@ -432,6 +432,111 @@ a {
   left: 0%;
 }
 
+/* ---------------Skills classes----------------*/
+.own-divSkills {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  position: relative;
+}
+
+.own-divContentSkills {
+  padding: 0 10%;
+  height: 100vh;
+}
+
+.own-h2Skills {
+  color: var(--tittle-color);
+  font-family: var(--fourth-font);
+  font-weight: 700;
+  position: relative;
+}
+
+.own-h2Skills::before {
+  content: '<h2>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: -1rem;
+  left: 0%;
+}
+
+.own-h2Skills::after {
+  content: '</h2>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 2rem;
+  left: 0%;
+}
+
+.own-pSkills {
+  color: var(--text-color);
+  font-family: var(--fourth-font);
+  font-size: 1.125rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.own-pSkills::before {
+  content: '<p>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: -1.5rem;
+  left: 0%;
+}
+
+.own-pSkills::after {
+  content: '</p>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 2rem;
+  left: 0%;
+}
+
+.own-divTecnologies {
+  position: relative;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.own-divTecnologies::before {
+  content: '<div>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: -1.5rem;
+  left: 0%;
+}
+
+.own-divTecnologies::after {
+  content: '</div>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  bottom: -1.5rem;
+  left: 0%;
+}
+
+.own-logosSkills {
+  height: 3.125rem;
+  margin: 0.6rem;
+}
+
 
 
 
@@ -465,16 +570,14 @@ a {
   /* ----------------Home classes----------------*/
   .own-divHome {
     width: calc(100vw - 208px);
-    height: 100vh;
-    position: relative;
-    padding-top: 5rem;
   }
 
   /* ---------------About Me classes----------------*/
   .own-divAbout {
     width: calc(100vw - 208px);
-    height: 100vh;
-    max-height: 100vh;
-    position: relative;
+  }
+  /* ---------------Skills classes----------------*/
+  .own-divSkills {
+    width: calc(100vw - 208px);
   }
 }
