@@ -616,6 +616,182 @@ a {
   overflow: hidden;
 }
 
+/* ---------------Contact classes----------------*/
+.own-divContact {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  position: relative;
+  
+}
+
+.own-divContentContact {
+  padding: 0 10%;
+  height: 100vh;
+  padding-bottom: 2rem !important;
+}
+
+.own-h2Contact {
+  color: var(--tittle-color);
+  font-family: var(--fourth-font);
+  font-weight: 700;
+  position: relative;
+}
+
+.own-h2Contact::before {
+  content: '<h2>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: -1rem;
+  left: 0%;
+}
+
+.own-h2Contact::after {
+  content: '</h2>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 2rem;
+  left: 0%;
+}
+
+.own-pContact {
+  color: var(--text-color);
+  font-family: var(--fourth-font);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.own-pContact::before {
+  content: '<p>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: -1.5rem;
+  left: 0%;
+}
+
+.own-pContact::after {
+  content: '</p>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 1rem;
+  left: 0%;
+}
+
+.own-divForm {
+  position: relative;
+  background-color: transparent;
+}
+
+.own-divForm::before {
+  content: '<form>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  margin-top: -1.5rem;
+  left: 0%;
+}
+
+.own-divForm::after {
+  content: '</form>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0rem;
+  left: 0%;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.own-NE {
+  min-width: 10rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.2rem 0.75rem !important;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #757575 !important;
+  background-color: #2B2B2B !important;
+  background-clip: padding-box;
+  border: none !important;
+  appearance: none;
+  border-radius: 0 !important;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 6rem !important;
+}
+
+.own-btnSend {
+  color: white !important;
+  border: 1px solid #00A8F3;
+  background-color: #2B2B2B;
+}
+
+.own-tagsbottom {
+  color: var(--tags-color);
+  position: absolute;
+  bottom: 0;
+  left: 1%;
+  font-style: italic;
+  font-size: 1.8rem;
+  font-family: var(--tirdht-font);
+}
+
+.own-bottomTags {
+  bottom: 2rem;
+  top: auto;
+}
+
+.own-bottomTags::before {
+  content: '</body>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  position: absolute;
+  margin-top: -1.5rem;
+  left: 8vw;
+}
+
+.own-bottomTags::after {
+  content: '</html>';
+  font-family: var(--tirdht-font);
+  color: var(--tags-color);
+  font-size: 1rem;
+  position: absolute;
+  margin-top: 0rem;
+  left: 2vw;
+}
 
 @media (min-width: 390px) and (max-width: 599px) {
   html {
@@ -661,6 +837,12 @@ a {
   /* ---------------Work classes----------------*/
   .own-divWork {
     width: calc(100vw - 208px);
+  }
+
+  /* ---------------Contact classes----------------*/
+  .own-divContact {
+    width: calc(100vw - 208px);
+
   }
 
 }

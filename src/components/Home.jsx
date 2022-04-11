@@ -1,7 +1,7 @@
 function Home() {
   return (
     <div className="own-divHome d-flex flex-column justify-content-around">
-      <span className="own-tags own-topTags"></span>
+      <span className="own-tagsbottom own-topTags"></span>
 
       <div className="d-flex justify-content-center">
         <div className="own-divLogoHome">
@@ -27,7 +27,8 @@ function Home() {
         <a
           href="https://www.linkedin.com/in/murillojymmy/"
           target="_blank"
-          className="mx-3 own-iconLinkedinGithubNavBar" rel="noreferrer"
+          className="mx-3 own-iconLinkedinGithubNavBar"
+          rel="noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
