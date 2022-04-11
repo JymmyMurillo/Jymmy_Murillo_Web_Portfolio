@@ -5,7 +5,7 @@
   --first-font: 'tillana';
   --second-font: 'verdana';
   --tirdht-font: 'La Belle Aurore',
-  cursive;
+    cursive;
   --fourth-font: 'nunito sans';
   --tags-color: #515151;
   --tittle-color: #00A8F3;
@@ -622,7 +622,7 @@ a {
   height: 100vh;
   max-height: 100vh;
   position: relative;
-  
+
 }
 
 .own-divContentContact {
@@ -756,6 +756,13 @@ textarea {
   color: white !important;
   border: 1px solid #00A8F3;
   background-color: #2B2B2B;
+  transition: 1s;
+}
+
+.own-btnSend:hover {
+  color: black !important;
+  background-color: #00A8F3;
+  border: 1px solid white;
 }
 
 .own-tagsbottom {
@@ -791,6 +798,138 @@ textarea {
   position: absolute;
   margin-top: 0rem;
   left: 2vw;
+}
+
+.invalid-tooltip {
+  position: absolute;
+  top: -0.5rem !important;
+  z-index: 5;
+  display: none;
+  max-width: 100%;
+  padding: 0.2rem 0.2rem !important;
+  margin-top: 0.1rem !;
+  right: 2rem !important;
+  font-size: .6rem !important;
+  color: #fff;
+  background-color: rgba(220, 53, 69, .9);
+  border-radius: 0.25rem;
+}
+
+.swal-modal {
+  width: 15rem;
+  opacity: 0;
+  pointer-events: none;
+  background-color: #2B2B2B;
+  text-align: center;
+  border-radius: 0.3125rem;
+  position: static;
+  margin: 1.25rem auto;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  z-index: 10001;
+  transition: opacity .2s, -webkit-transform .3s;
+  transition: transform .3s, opacity .2s;
+  transition: transform .3s, opacity .2s, -webkit-transform .3s;
+}
+
+.swal-title {
+  color: #00A8F3;
+  font-weight: 600;
+  text-transform: none;
+  position: relative;
+  display: block;
+  padding: 0.8125rem 0rem;
+  font-size: 1.2rem;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.swal-text {
+  font-size: 0.8rem;
+  position: relative;
+  float: none;
+  line-height: normal;
+  vertical-align: top;
+  text-align: left;
+  display: inline-block;
+  margin: 0;
+  padding: 0 0.16rem;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  max-width: calc(100% - 1.25rem);
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+}
+
+.swal-icon--success:before {
+  border-radius: 120px 0 0 120px;
+  top: -7px;
+  left: -33px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 60px 60px;
+  transform-origin: 60px 60px;
+  background-color: #2B2B2B;
+}
+
+.swal-icon--success:after {
+  border-radius: 0 120px 120px 0;
+  top: -11px;
+  left: 30px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 60px;
+  transform-origin: 0 60px;
+  -webkit-animation: rotatePlaceholder 4.25s ease-in;
+  animation: rotatePlaceholder 4.25s ease-in;
+  background-color: #2B2B2B;
+}
+
+.swal-icon--success__hide-corners {
+  width: 8px;
+  height: 100px;
+  background-color: #fff;
+  padding: 1px;
+  position: absolute;
+  left: 28px;
+  top: 4px;
+  z-index: 1;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #2B2B2B;
+}
+
+.swal-button {
+  background-color: #1D1D1D;
+  color: #fff !important;
+  border: 1px solid #00A8F3;
+  box-shadow: none;
+  border-radius: 0.325rem;
+  font-weight: 600;
+  font-size: 0.6rem;
+  padding: 0.3rem 1rem;
+  margin: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.swal-button:hover {
+  background-color: #00A8F3 !important;
+  color: black !important;
+  border: 1px solid white;
+  box-shadow: none;
+  border-radius: 0.325rem;
+  font-weight: 600;
+  font-size: 0.6rem;
+  padding: 0.3rem 1rem;
+  margin: 0;
+  cursor: pointer;
 }
 
 @media (min-width: 390px) and (max-width: 599px) {
@@ -829,6 +968,7 @@ textarea {
   .own-divAbout {
     width: calc(100vw - 208px);
   }
+
   /* ---------------Skills classes----------------*/
   .own-divSkills {
     width: calc(100vw - 208px);
