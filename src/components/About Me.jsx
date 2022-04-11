@@ -1,6 +1,6 @@
 function AboutMe() {
   return (
-    <div className="own-divAbout">
+    <div className="own-divAbout" id="about">
       <div className="own-divContent d-flex flex-column justify-content-around">
         <h2 className="own-h2About m-0">Acerca de Mí</h2>
         <p className="own-pAbout m-0">

@@ -1,6 +1,6 @@
 function Skills() {
   return (
-    <div className="own-divSkills">
+    <div className="own-divSkills" id="skills">
       <div className="own-divContentSkills d-flex flex-column justify-content-around">
         <h2 className="own-h2Skills m-0">Mis Habilidades</h2>
         <p className="own-pSkills m-0">

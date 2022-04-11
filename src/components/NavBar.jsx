@@ -58,7 +58,7 @@ function NavBar() {
 
           <div className="offcanvas-body px-0 d-flex flex-column justify-content-between own-main-menu">
             <div className=" d-flex justify-content-center own-dicNavLogo">
-              <a href="x">
+              <a href="#home">
                 <img
                   src="./images/Logo Fondo Oscuro.svg"
                   alt="Logo Jymmy Murillo"
@@ -73,7 +73,7 @@ function NavBar() {
                 <a
                   className="nav-link active d-flex justify-content-center"
                   aria-current="page"
-                  href="x"
+                  href="#home"
                 >
                   Inicio
                 </a>
@@ -82,7 +82,7 @@ function NavBar() {
                 <a
                   className="nav-link active d-flex justify-content-center"
                   aria-current="page"
-                  href="x"
+                  href="#about"
                 >
                   Acerca de Mí
                 </a>
@@ -91,7 +91,7 @@ function NavBar() {
                 <a
                   className="nav-link active d-flex justify-content-center"
                   aria-current="page"
-                  href="x"
+                  href="#skills"
                 >
                   Mis Habilidades
                 </a>
@@ -100,7 +100,7 @@ function NavBar() {
                 <a
                   className="nav-link active d-flex justify-content-center"
                   aria-current="page"
-                  href="x"
+                  href="#work"
                 >
                   Mis Desarrollos
                 </a>
@@ -109,7 +109,7 @@ function NavBar() {
                 <a
                   className="nav-link active d-flex justify-content-center"
                   aria-current="page"
-                  href="x"
+                  href="#contact"
                 >
                   Contáctame
                 </a>

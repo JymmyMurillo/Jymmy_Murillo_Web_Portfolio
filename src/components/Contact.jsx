@@ -17,7 +17,7 @@ function Contact() {
   }
 
   return (
-    <div className="own-divContact">
+    <div className="own-divContact" id="contact">
       <div className="own-divContentContact d-flex flex-column justify-content-around">
         <h2 className="own-h2Contact m-0">Contáctame</h2>
         <p className="own-pContact m-0">
