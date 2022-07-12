@@ -211,7 +211,9 @@ a {
 /* ----------------Home classes----------------*/
 .own-divHome {
   width: 100vw;
+  min-width: 20rem;
   height: 100vh;
+  min-height: 33.75rem;
   position: relative;
   padding-top: 5rem;
 }
@@ -333,7 +335,9 @@ a {
 /* ---------------About Me classes----------------*/
 .own-divAbout {
   width: 100vw;
+  min-width: 20rem;
   height: 100vh;
+  min-height: 33.75rem;
   max-height: 100vh;
   position: relative;
 }
@@ -341,6 +345,7 @@ a {
 .own-divContent {
   padding: 0 10%;
   height: 100vh;
+  min-height: 33.75rem;
 }
 
 .own-h2About {
@@ -435,7 +440,9 @@ a {
 /* ---------------Skills classes----------------*/
 .own-divSkills {
   width: 100vw;
+  min-width: 20rem;
   height: 100vh;
+  min-height: 33.75rem;
   max-height: 100vh;
   position: relative;
 }
@@ -443,6 +450,7 @@ a {
 .own-divContentSkills {
   padding: 0 10%;
   height: 100vh;
+  min-height: 33.75rem;
 }
 
 .own-h2Skills {
@@ -540,7 +548,9 @@ a {
 /* ---------------Work classes----------------*/
 .own-divWork {
   width: 100vw;
+  min-width: 20rem;
   height: 100vh;
+  min-height: 33.75rem;
   max-height: 100vh;
   position: relative;
 }
@@ -548,6 +558,7 @@ a {
 .own-divContentWork {
   padding: 0 10%;
   height: 100vh;
+  min-height: 33.75rem;
 }
 
 .own-h2Work {
@@ -619,15 +630,17 @@ a {
 /* ---------------Contact classes----------------*/
 .own-divContact {
   width: 100vw;
+  min-width: 20rem;
   height: 100vh;
+  min-height: 33.75rem;
   max-height: 100vh;
   position: relative;
-
 }
 
 .own-divContentContact {
   padding: 0 10%;
   height: 100vh;
+  min-height: 33.75rem;
   padding-bottom: 2rem !important;
 }
 
