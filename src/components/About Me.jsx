@@ -6,11 +6,19 @@ function AboutMe() {
         <p className="own-pAbout m-0">
           Soy un desarrollador full stack ubicado en Tunja-Boyacá. Tengo una
           gran pasión por los efectos de interfaz de usuario, las animaciones y
-          la creación de experiencias de usuario intuitivas y dinámicas. <br></br>
+          la creación de experiencias de usuario intuitivas y dinámicas.{" "}
+          <br></br>
           Interesado en todo el espectro frontend y backend, trabajando en
           proyectos ambiciosos con personas positivas.
         </p>
-        <a href="x" className="own-aAbout">Aquí puedes ver mi CV</a>
+        <a
+          href="./hv/HV_JYMMY MURILLO.pdf"
+          target="_blank"
+          /*download="HV_JYMMY MURILLO.pdf"*/
+          className="own-aAbout"
+        >
+          Aquí puedes ver mi CV
+        </a>
       </div>
 
       <span className="own-scroll-down-left d-flex flex-row justify-content-between">
