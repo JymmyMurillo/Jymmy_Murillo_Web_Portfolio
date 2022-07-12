@@ -11,9 +11,9 @@ function Skills() {
           <img src="./images/html5.png" alt="Logo html" className="own-logosSkills"/>
           <img src="./images/js.png" alt="Logo javascript" className="own-logosSkills"/>
           <img src="./images/css.png" alt="Logo css" className="own-logosSkills"/>
-          <img src="./images/1200px-React.jpg" alt="Logo react" className="own-logosSkills"/>
+          <img src="./images/1200px-React.jpg" alt="Logo React" className="own-logosSkills"/>
           <img src="./images/php.png" alt="Logo php" className="own-logosSkills"/>
-          <img src="./images/bootstrap.jpg" alt="Logo bootstrap" className="own-logosSkills"/>
+          <img src="./images/Bootstrap.jpg" alt="Logo Bootstrap" className="own-logosSkills"/>
           <img src="./images/git.png" alt="Logo git" className="own-logosSkills"/>
           <img src="./images/github.png" alt="Logo github" className="own-logosSkills"/>
         </div>
