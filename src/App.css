@@ -117,10 +117,6 @@ a {
   height: auto;
 }
 
-.own-dicNavLogo {
-  padding-top: 44px !important;
-}
-
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -196,11 +192,12 @@ a {
   -ms-flex-align: center;
   align-items: center;
   margin: 0;
-  padding: 16px !important;
+  padding: 0.5rem 0 !important;
 }
 
 .navbar-nav {
-  height: calc(100vh - 300px) !important;
+  height: 100% !important;
+  min-height: 18rem;
   display: flex;
   flex-direction: column;
   padding-left: 0;
