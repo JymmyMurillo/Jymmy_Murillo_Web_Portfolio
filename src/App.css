@@ -169,9 +169,10 @@ a {
 }
 
 .own-main-menu {
-  width: 208px;
+  width: 210px;
   background-color: #181818;
   height: 100vh;
+  
   position: fixed;
   right: 0 !important;
   top: 0;

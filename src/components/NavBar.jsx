@@ -56,7 +56,7 @@ function NavBar() {
             </svg>
           </button>
 
-          <div className="offcanvas-body px-0 d-flex flex-column justify-content-between own-main-menu">
+          <div className="offcanvas-body px-0 d-flex flex-column justify-content-between own-main-menu overflow-auto">
             <ul className="navbar-nav flex-column d-flex justify-content-around align-items-center">
               <li className="nav-item d-flex justify-content-center py-2">
                 <a href="#home">
