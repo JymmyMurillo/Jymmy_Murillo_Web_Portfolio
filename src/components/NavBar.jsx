@@ -58,7 +58,7 @@ function NavBar() {
 
           <div className="offcanvas-body px-0 d-flex flex-column justify-content-between own-main-menu">
             <ul className="navbar-nav flex-column d-flex justify-content-around align-items-center">
-              <li className="nav-item d-flex justify-content-center">
+              <li className="nav-item d-flex justify-content-center py-2">
                 <a href="#home">
                   <img
                     src="./images/Logo Fondo Oscuro.svg"
@@ -115,7 +115,7 @@ function NavBar() {
                 </a>
               </li>
 
-              <li className="nav-item d-flex flex-row justify-content-arround">
+              <li className="nav-item d-flex flex-row justify-content-arround p-1">
                 <a
                   href="https://www.linkedin.com/in/murillojymmy/"
                   target="_blank"

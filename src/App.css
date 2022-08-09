@@ -197,7 +197,7 @@ a {
 
 .navbar-nav {
   height: 100% !important;
-  min-height: 18rem;
+  min-height: 19rem;
   display: flex;
   flex-direction: column;
   padding-left: 0;
