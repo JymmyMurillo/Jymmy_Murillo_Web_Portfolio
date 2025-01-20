@@ -1,3 +1,5 @@
+import React from "react";
+
 function Work() {
   return (
     <div className="own-divWork" id="work">
@@ -15,7 +17,7 @@ function Work() {
                 <a
                   href="https://jymmymurillo.github.io/Impacto-Covid-19-en-el-mundo/index.html"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/CoviMap.png"
@@ -28,7 +30,7 @@ function Work() {
                 <a
                   href="https://compralo-tienda-virtual.netlify.app/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/Compralo.png"
@@ -41,7 +43,7 @@ function Work() {
                 <a
                   href="https://to-do-mongodb-frontend.herokuapp.com/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/ToDoApp.png"
@@ -54,7 +56,7 @@ function Work() {
                 <a
                   href="https://krosbelt.github.io/Proyecto-Escuela-Musical-Toquen/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/ToquenELDom.png"
@@ -76,7 +78,7 @@ function Work() {
                 <a
                   href="https://jymmymurillo.github.io/Impacto-Covid-19-en-el-mundo/index.html"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/CoviMap.png"
@@ -89,7 +91,7 @@ function Work() {
                 <a
                   href="https://compralo-tienda-virtual.netlify.app/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/Compralo.png"
@@ -102,7 +104,7 @@ function Work() {
                 <a
                   href="https://to-do-mongodb-frontend.herokuapp.com/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/ToDoApp.png"
@@ -115,7 +117,7 @@ function Work() {
                 <a
                   href="https://krosbelt.github.io/Proyecto-Escuela-Musical-Toquen/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/ToquenELDom.png"
@@ -137,7 +139,7 @@ function Work() {
                 <a
                   href="https://jymmymurillo.github.io/Impacto-Covid-19-en-el-mundo/index.html"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/CoviMap.png"
@@ -150,7 +152,7 @@ function Work() {
                 <a
                   href="https://compralo-tienda-virtual.netlify.app/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/Compralo.png"
@@ -163,7 +165,7 @@ function Work() {
                 <a
                   href="https://to-do-mongodb-frontend.herokuapp.com/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/ToDoApp.png"
@@ -176,7 +178,7 @@ function Work() {
                 <a
                   href="https://krosbelt.github.io/Proyecto-Escuela-Musical-Toquen/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/ToquenELDom.png"
@@ -198,7 +200,7 @@ function Work() {
                 <a
                   href="https://jymmymurillo.github.io/Impacto-Covid-19-en-el-mundo/index.html"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/CoviMap.png"
@@ -211,7 +213,7 @@ function Work() {
                 <a
                   href="https://compralo-tienda-virtual.netlify.app/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/Compralo.png"
@@ -224,7 +226,7 @@ function Work() {
                 <a
                   href="https://to-do-mongodb-frontend.herokuapp.com/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/ToDoApp.png"
@@ -237,7 +239,7 @@ function Work() {
                 <a
                   href="https://krosbelt.github.io/Proyecto-Escuela-Musical-Toquen/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/ToquenELDom.png"
@@ -259,7 +261,7 @@ function Work() {
                 <a
                   href="https://jymmymurillo.github.io/Impacto-Covid-19-en-el-mundo/index.html"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/CoviMap.png"
@@ -272,7 +274,7 @@ function Work() {
                 <a
                   href="https://compralo-tienda-virtual.netlify.app/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/Compralo.png"
@@ -285,7 +287,7 @@ function Work() {
                 <a
                   href="https://to-do-mongodb-frontend.herokuapp.com/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/ToDoApp.png"
@@ -298,7 +300,7 @@ function Work() {
                 <a
                   href="https://krosbelt.github.io/Proyecto-Escuela-Musical-Toquen/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/ToquenELDom.png"
@@ -320,7 +322,7 @@ function Work() {
                 <a
                   href="https://jymmymurillo.github.io/Impacto-Covid-19-en-el-mundo/index.html"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/CoviMap.png"
@@ -333,7 +335,7 @@ function Work() {
                 <a
                   href="https://compralo-tienda-virtual.netlify.app/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/Compralo.png"
@@ -346,7 +348,7 @@ function Work() {
                 <a
                   href="https://to-do-mongodb-frontend.herokuapp.com/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/ToDoApp.png"
@@ -359,7 +361,7 @@ function Work() {
                 <a
                   href="https://krosbelt.github.io/Proyecto-Escuela-Musical-Toquen/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src="./images/ToquenELDom.png"

@@ -1,6 +1,11 @@
+import React from "react";
+
 function Home() {
   return (
-    <div className="own-divHome d-flex flex-column justify-content-around" id="home">
+    <div
+      className="own-divHome d-flex flex-column justify-content-around"
+      id="home"
+    >
       <span className="own-tagsbottom own-topTags"></span>
 
       <div className="d-flex justify-content-center">
@@ -28,7 +33,7 @@ function Home() {
           href="https://www.linkedin.com/in/murillojymmy/"
           target="_blank"
           className="mx-3 own-iconLinkedinGithubNavBar"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +51,7 @@ function Home() {
           href="https://github.com/JymmyMurillo"
           target="_blank"
           className="mx-3 own-iconLinkedinGithubNavBar"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

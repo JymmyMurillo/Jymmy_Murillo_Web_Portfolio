@@ -1,3 +1,5 @@
+import React from "react";
+
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light position-relative p-0">
@@ -120,7 +122,7 @@ function NavBar() {
                   href="https://www.linkedin.com/in/murillojymmy/"
                   target="_blank"
                   className="mx-3 "
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -139,7 +141,7 @@ function NavBar() {
                 <a
                   href="https://github.com/JymmyMurillo"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="mx-3 "
                 >
                   <svg

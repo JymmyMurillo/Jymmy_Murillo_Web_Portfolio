@@ -1,3 +1,5 @@
+import React from "react";
+
 function AboutMe() {
   return (
     <div className="own-divAbout" id="about">
@@ -31,4 +33,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe
+export default AboutMe;
